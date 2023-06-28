@@ -1,6 +1,5 @@
 .main_about_us {
     /* border: 1px solid red; */
-    height: 100vh;
     text-align: center;
     margin-top: 20px;
 }
@@ -13,8 +12,9 @@
 }
 
 .heading h2 {
+    color: chocolate;
     font-size: 45px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
 
@@ -42,6 +42,26 @@
 
 .first_about img {
     width: 70%;
+    transform: rotateY(180deg);
+}
+
+
+.second_about {
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.second_about img {
+    width: 70%;
+}
+
+.third_about {
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.third_about img {
+    width: 50%;
 }
 
 .text_first {
@@ -56,6 +76,13 @@
 .text_first span {
     font-size: 20px;
     text-align: center;
+}
+
+.heading2 {
+    color: chocolate;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800
 }
 
 @media screen and (max-width : 1000px) {
