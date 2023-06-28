@@ -1,13 +1,21 @@
 import { Fragment } from 'react';
 import style from './Navbar.module.css';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
+import { useNavigate } from 'react-router-dom';
 
 export function NavbarSection() {
+
+    const navigateFromJoinUs = useNavigate();
+
+    function handleNavigateJoinUs() {
+        navigateFromJoinUs('/signin');
+    }
+
     return (
         <Fragment>
             <div className={style.main_sec_navbar}>
                 <div className={style.heading}>
-                    <p><FitnessCenterIcon sx={{ color: 'black' , fontWeight : 'bolder' }} /></p>
+                    <p><FitnessCenterIcon sx={{ color: 'black', fontWeight: 'bolder' }} /></p>
                     <h1>Power Fitness</h1>
                 </div>
                 <div className={style.listing_sec_nav}>
@@ -20,7 +28,7 @@ export function NavbarSection() {
                 </div>
 
                 <div className={style.btn_nav}>
-                    <button>Join Us</button>
+                    <button onClick={handleNavigateJoinUs}>Join Us</button>
                 </div>
             </div>
         </Fragment>

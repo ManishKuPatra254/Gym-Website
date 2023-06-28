@@ -66,3 +66,15 @@
     background-color: rgb(47, 74, 90);
     transition: .3s ease-in-out;
 }
+
+@media screen and (max-width : 990px) {
+    .heading h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .listing_sec_nav ul li {
+        display: none;
+    }
+}
