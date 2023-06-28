@@ -1,0 +1,57 @@
+.main_herosection {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.main_herosection img {
+    width: 100%;
+    height: auto;
+}
+
+.text_in_image {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+.text_in_image h1 {
+    font-size: 78px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text_in_image p {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text_in_image button {
+    margin-top: 20px;
+    background-color: rgb(230, 105, 70);
+    padding: 8px 30px;
+    color: whitesmoke;
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+}
+
+.text_in_image button:hover {
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.534);
+}
