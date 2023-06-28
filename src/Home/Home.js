@@ -1,12 +1,15 @@
 import React, { Fragment } from 'react';
-import { NavbarSection } from '../Navbar/Navbar';
-import { Herosection } from '../Herosection/Herosection'
+
+import { Herosection } from '../Herosection/Herosection';
+import { Aboutus } from '../Aboutus/Aboutus';
 
 export function Home() {
     return (
         <Fragment>
-            <NavbarSection />
-            <Herosection />
+            <div id='home'>
+                <Herosection />
+                <Aboutus />
+            </div>
         </Fragment>
     )
 }

@@ -15,7 +15,7 @@ export function Herosection() {
             <div className={style.main_herosection}>
                 <img src={imageHero} alt="" />
                 <div className={style.text_in_image}>
-                    <h1>Power Fitness</h1>
+                    <h1>Welcome to Power Fitness</h1>
                     <p>“The secret of getting ahead is getting started” </p>
                     <button onClick={handleNaigateSignup}>Join with us</button>
                 </div>

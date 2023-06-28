@@ -1,0 +1,70 @@
+.main_about_us {
+    /* border: 1px solid red; */
+    height: 100vh;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.heading h2 {
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.heading p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.main_first {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.first_about {
+    flex-shrink: 0;
+    cursor: pointer;
+
+}
+
+.first_about img {
+    width: 70%;
+}
+
+.text_first {
+    flex-shrink: 1;
+}
+
+.text_first p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text_first span {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width : 1000px) {
+    .first_about img {
+        width: 100%;
+    }
+
+    .text_first {
+        display: none;
+
+    }
+}
