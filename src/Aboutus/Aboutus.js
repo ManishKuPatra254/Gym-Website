@@ -27,7 +27,9 @@ export function Aboutus() {
                 </div>
                 <div className={style.main_first}>
                     <div className={style.first_about}>
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/HQfF5XRVXjU?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <div className={style.video_wrapper}>
+                            <iframe width="400" height="500" src="https://www.youtube.com/embed/HQfF5XRVXjU?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        </div>
                     </div>
                     <div className={style.text_first}>
                         <p>Who We Are</p>
@@ -35,6 +37,7 @@ export function Aboutus() {
                         <div>
                             <Button
                                 sx={{
+                                    width: '30%',
                                     marginTop: '12px',
                                     textTransform: 'unset',
                                     fontSize: '17px',

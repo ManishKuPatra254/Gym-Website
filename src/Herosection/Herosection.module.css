@@ -6,16 +6,15 @@
     display: inline-block;
 }
 
-.main_herosection img {
+.main_herosection video {
     width: 100%;
     height: auto;
 }
 
 .text_in_image {
     position: absolute;
-    /* border: 1px solid red; */
     width: 70%;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
