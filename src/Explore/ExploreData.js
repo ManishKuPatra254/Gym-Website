@@ -1,29 +1,33 @@
 export const exploreData = [
     {
         "id": 1,
-        "images": "https://imagehost9.online-image-editor.com/oie_upload/images/3015471goLs9C59WL/tZNsRA1dX9WK.jpg",
-
+        "images": "https://images.pexels.com/photos/16576530/pexels-photo-16576530/free-photo-of-man-practicing-with-dumbbell-at-gym.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "names": "Bodybuilding",
     },
     {
         "id": 2,
-        "images": "https://imagehost9.online-image-editor.com/oie_upload/images/30154551yiqX6nI9/WdkDA4G5XfSj.jpg",
-
+        "images": "https://images.pexels.com/photos/6454050/pexels-photo-6454050.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "names": "Aerobic",
     },
     {
         "id": 3,
-        "images": "https://imagehost9.online-image-editor.com/oie_upload/images/30154438dr0ppoFM9F/4U0mdxCkR1tV.jpg",
+        "images": "https://images.pexels.com/photos/4662330/pexels-photo-4662330.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "names": "Yoga",
     },
     {
         "id": 4,
-        "images": "https://imagehost9.online-image-editor.com/oie_upload/images/3015438slW7nAV/SpXCQ7ULHhk7.jpg",
+        "images": "https://images.pexels.com/photos/4720783/pexels-photo-4720783.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "names": "Weight Lifting",
     },
     {
         "id": 5,
-        "images": "https://imagehost9.online-image-editor.com/oie_upload/images/30153936TudDmHr/ryQV9Z0VZR5W.jpg",
+        "images": "https://images.pexels.com/photos/6572624/pexels-photo-6572624.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "names": "Flexibility",
     },
     {
         "id": 6,
-        "images": "https://imagehost9.online-image-editor.com/oie_upload/images/301537424CjeCVBl90/niWD6NpYHipJ.jpg",
+        "images": "https://images.pexels.com/photos/6453600/pexels-photo-6453600.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "names": "Zumba Dance",
     },
 ]
 

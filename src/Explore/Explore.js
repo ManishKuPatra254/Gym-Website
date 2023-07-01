@@ -11,20 +11,20 @@ export function Explore() {
     }, []);
 
     return (
-        <>
+        <Fragment>
             <div className={style.heading_1}>
                 <h2>Training Programs</h2>
             </div>
 
             <div className={style.main_container} >
                 {exploreData.map((item) => (
-                    <div key={item.id} className={style.image_container}>
-                        <div className={style.image_sec_programs} ref={innerRefImage}>
-                            <img src={item.images} alt="" />
-                        </div>
+                    <div key={item.id} className={style.image_container} ref={innerRefImage}>
+                        <img src={item.images} alt="" />
+                        <p>{item.names}</p>
+
                     </div>
                 ))}
             </div>
-        </>
+        </Fragment>
     );
 }
