@@ -14,9 +14,13 @@ export function Meetourteam() {
                 {
                     meetOurTeamData.map(items => (
                         <div key={items.id} className={style.main_team_sec}>
-                            <img src={items.images} alt="" />
-                            <p>{items.names}</p>
-                            <h4>{items.prof}</h4>
+                            <div className={style.flip_card_inner}>
+                                <img src={items.images} alt="" />
+                                <div className={style.text_liner}>
+                                    <p>{items.names}</p>
+                                    <h4>{items.prof}</h4>
+                                </div>
+                            </div>
                         </div>
                     ))
                 }
