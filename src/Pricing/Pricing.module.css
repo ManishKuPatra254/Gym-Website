@@ -1,0 +1,155 @@
+.pricing_table_title {
+    color: chocolate;
+    font-size: 78px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pricing_table_title a {
+    font-size: 0.6em;
+}
+
+.pricing_wrapper {
+    width: 980px;
+    height: 100vh;
+    /* border: 1px solid red; */
+    margin: 40px auto 0;
+}
+
+.pricing_table {
+    margin: 0 10px;
+    text-align: center;
+    width: 300px;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s ease-in-out;
+}
+
+.pricing_table:hover {
+    transform: scale(1.06);
+
+}
+
+ul {
+    /* list-style: none; */
+    list-style-type: none;
+}
+
+.pricing_title_1 {
+    color: #000000;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(150, 150, 150, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.pricing_title_2 {
+    color: #000000;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(205, 159, 3, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.pricing_title_3 {
+    color: #000000;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(207, 99, 17, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.pricing_table .price {
+    background: #000000;
+    font-size: 42px;
+    color: #FFF;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.pricing_table .price sup {
+    font-size: 14px;
+    position: relative;
+    left: 5px;
+}
+
+.table_list {
+    background: #FFF;
+    color: #403d3a;
+}
+
+.table_list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    /* background-color: green; */
+    padding: 12px 8px;
+}
+
+.table_buy {
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.table_buy button {
+    background-color: rgb(255, 0, 0);
+    border: transparent;
+    padding: 10px 10px;
+    color: white;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+}
+
+.table_buy button:hover {
+    background-color: rgb(38, 82, 110);
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .pricing_wrapper {
+        width: 768px;
+    }
+
+    .pricing_table {
+        width: 236px;
+    }
+
+    .table_list li {
+        font-size: 1.3em;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .pricing_wrapper {
+        width: 420px;
+    }
+
+    .pricing_table {
+        display: block;
+        float: none;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .pricing_wrapper {
+        width: 300px;
+    }
+}

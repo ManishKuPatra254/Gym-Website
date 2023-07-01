@@ -11,7 +11,6 @@
     text-align: center;
     color: chocolate;
     font-weight: 900;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .meet_main_team {
@@ -99,14 +98,18 @@
     align-items: center;
 }
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width: 1000px) {
     .heading2 h2 {
         font-size: 15px;
     }
 
-    .main_team_sec {
-        width: 100%;
-        max-width: 100%;
+    .meet_main_team {
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+
+    .flip_card_inner {
+        flex-basis: 80% ;
     }
 
 }

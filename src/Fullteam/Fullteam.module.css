@@ -1,0 +1,72 @@
+.heading2 {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.heading2 h2 {
+    font-size: 78px;
+    text-align: center;
+    color: chocolate;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.met_main_team {
+    border: 2px solid red;
+    width: 100%;
+    gap: 12px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_name_3 {
+    display: flex;
+    overflow: auto;
+    border: 5px solid rgb(0, 144, 141);
+    height: 90vh;
+    width: 100%;
+}
+
+.sub_name {
+    /* border: 1px solid rgb(35, 33, 33); */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sub_name img {
+    width: 100%;
+}
+
+
+.main_button {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .heading2 h2 {
+        font-size: 15px;
+    }
+
+    .meet_main_team {
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+
+    .flip_card_inner {
+        flex-basis: 80%;
+    }
+
+}

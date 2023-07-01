@@ -4,6 +4,7 @@ import { Herosection } from '../Herosection/Herosection';
 import { Aboutus } from '../Aboutus/Aboutus';
 import { Explore } from '../Explore/Explore';
 import { Meetourteam } from '../Meetourteam/Meetourteam';
+import { Pricing } from '../Pricing/Pricing';
 
 export function Home() {
     return (
@@ -13,6 +14,7 @@ export function Home() {
                 <Aboutus />
                 <Explore />
                 <Meetourteam />
+                <Pricing />
             </div>
         </Fragment>
     )

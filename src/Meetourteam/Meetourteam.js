@@ -2,8 +2,16 @@ import style from './Meetourteam.module.css';
 import React, { Fragment } from 'react'
 import { meetOurTeamData } from './MeetteamData';
 import { Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 export function Meetourteam() {
+
+    const navigateToFullTeam = useNavigate();
+
+    function handleNavigateToFullTeam() {
+        navigateToFullTeam('/fullteam');
+    }
+
     return (
         <Fragment>
             <div className={style.heading2}>
@@ -26,7 +34,7 @@ export function Meetourteam() {
                 }
             </div>
             <div className={style.main_button}>
-                <Button
+                <Button onClick={handleNavigateToFullTeam}
                     sx={{
                         textTransform: 'unset',
                         fontSize: '19px',

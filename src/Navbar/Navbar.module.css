@@ -22,7 +22,6 @@
     /* border: 1px solid red; */
     color: red;
     padding: 10px;
-    font-family: 'Belanosima', sans-serif;
     font-weight: 900;
     cursor: pointer;
 }
@@ -38,8 +37,7 @@
     cursor: pointer;
     color: rgb(97, 97, 97);
     padding: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 18px;
     transition: .2s ease-in-out;
 }
@@ -55,7 +53,6 @@
     color: whitesmoke;
     border: none;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
     cursor: pointer;
     border-radius: 4px;
