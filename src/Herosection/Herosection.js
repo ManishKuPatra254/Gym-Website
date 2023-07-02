@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import style from './Herosection.module.css';
 // import imageHero from '../ImagesSection/pexels-leon-ardho-1552242.jpg'
 import { useNavigate } from 'react-router-dom';
-import video1 from '../ImagesSection/pexels-tima-miroshnichenko-5319759 (2160p).mp4'
+import video1 from '../ImagesSection/www.KeepVid.to--Cinematic-CROSSFIT-Video-with-TNR-Programming-www-youtube-com-1080p-dcd546118c0b72589a0116d723c774cc-1080p.mp4'
 
 export function Herosection() {
 
