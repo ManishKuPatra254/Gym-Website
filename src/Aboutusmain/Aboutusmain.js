@@ -1,4 +1,4 @@
-import style from './Aboutus.module.css'
+import style from './Aboutusmain.module.css'
 import React, { Fragment } from 'react';
 import { Button } from '@mui/material';
 import toast, { Toaster } from 'react-hot-toast';
@@ -21,7 +21,7 @@ export function Aboutus() {
 
     return (
         <Fragment>
-            <div id='aboutus' className={style.main_about_us}>
+            <div className={style.main_about_us}>
                 <div className={style.heading}>
                     <h2>About Us</h2>
                 </div>
@@ -34,7 +34,7 @@ export function Aboutus() {
                     <div className={style.text_first_1}>
                         <p>Who We Are</p>
                         <span>Our gym is designed to provide a welcoming and motivating environment for individuals of all fitness levels. Whether you're a beginner or an experienced athlete, we have the resources and support to help you succeed.</span>
-                        <div>
+                        <div className={style.btn_learn}>
                             <Button
                                 sx={{
                                     width: '30%',
@@ -44,7 +44,7 @@ export function Aboutus() {
                                     fontWeight: 'bolder',
                                     color: 'white',
                                     backgroundColor: 'red',
-                                    borderRadius : '50px',
+                                    borderRadius: '50px',
                                     "&:hover": { backgroundColor: 'teal' },
 
                                 }}

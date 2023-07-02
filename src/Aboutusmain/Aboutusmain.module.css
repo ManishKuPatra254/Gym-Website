@@ -71,11 +71,11 @@
     text-align: justify;
 }
 
-.text_first_1 p{
+.text_first_1 p {
     font-size: 45px;
     font-weight: 700;
     cursor: pointer;
-    transition: .3s ease; 
+    transition: .3s ease;
 }
 
 .text_first p {
@@ -110,6 +110,13 @@
     font-weight: 800
 }
 
+.btn_learn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
     .main_first {
         flex-direction: column;
@@ -117,11 +124,33 @@
 
     .text_first {
         margin-top: 20px;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .text_first p{
+        font-size: 15px;
+    }
+
+    .text_first span{
+        font-size: 15px;
     }
 
     .video_wrapper {
         position: relative;
         overflow: hidden;
         padding-top: 56.25%;
+    }
+
+    .btn_learn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn_learn Button {
+        width: 100%;
+        font-size: 14px;
     }
 }
