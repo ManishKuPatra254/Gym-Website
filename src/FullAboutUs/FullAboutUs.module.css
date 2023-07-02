@@ -1,0 +1,32 @@
+.heading3 {
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.heading3 h4 {
+    width: 20%;
+    margin: auto;
+    background-color: rgb(255, 206, 206);
+    padding: 15px 15px;
+    border-radius: 40px;
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main_about_sec{
+    /* border: 1px solid red; */
+    margin-top: 45px;
+}
+
+.main_about_sec h5{
+    font-size: 45px;
+    text-align: center;
+}
+
+.main_about_sec p{
+    /* border: 1px solid red; */
+    padding: 50px 150px;
+    text-align: center;
+}
