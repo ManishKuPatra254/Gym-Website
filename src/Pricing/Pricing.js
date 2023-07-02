@@ -64,7 +64,7 @@ export function Pricing() {
                     </ul>
 
                     <div className={style.table_buy}>
-                        <button onClick={handleClickToast}>Get Started</button>
+                        <button onClick={handleClickToast}>Start 7 day free trial</button>
                     </div>
                 </div>
             </div>

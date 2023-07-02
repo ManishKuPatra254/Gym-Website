@@ -1,72 +1,90 @@
 .heading2 {
     width: 100%;
     margin: auto;
-    padding: 10px;
-}
-
-.heading2 h2 {
-    font-size: 78px;
+    margin-top: 45px;
     text-align: center;
-    color: chocolate;
-    font-weight: 900;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
-
+.heading2 h2{
+    background-color: rgb(255, 165, 165);
+    border-radius: 30px;
+    display: inline;
+    padding: 12px 102px;
+    cursor: pointer;
+}
 .met_main_team {
-    border: 2px solid red;
-    width: 100%;
-    gap: 12px;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sub_name_3 {
-    display: flex;
-    overflow: auto;
-    border: 5px solid rgb(0, 144, 141);
-    height: 90vh;
-    width: 100%;
-}
-
-.sub_name {
-    /* border: 1px solid rgb(35, 33, 33); */
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    justify-content: center;
-    align-items: center;
+    width: 70%;
     text-align: center;
+    justify-content: space-around;
+}
+
+.sub_name {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 10px;
+    margin: auto;
+    border-radius: 5px;
+    margin: 40px 0px;
+    flex-basis: 30%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
     cursor: pointer;
 }
 
 .sub_name img {
     width: 100%;
+    height: auto;
+    transition: .2s ease-in-out;
+    transform: scale(1);
 }
 
+.sub_name img:hover {
+    filter: drop-shadow(12px);
+    transform: scale(1.04);
+    transition: .2s ease-in-out;
+}
 
-.main_button {
+.btn_add {
     display: flex;
-    padding: 12px;
     justify-content: center;
     align-items: center;
+    margin-top: 12px;
 }
 
-@media screen and (max-width: 1000px) {
-    .heading2 h2 {
-        font-size: 15px;
+.btn_add Button {
+    background-color: red;
+    padding: 8px;
+    text-transform: unset;
+    color: white;
+    font-weight: 900;
+    font-size: 15px
+}
+
+.btn_add Button:hover {
+    background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .met_main_team {
+        width: 90%;
     }
 
-    .meet_main_team {
-        flex-wrap: wrap;
-        overflow: auto;
+    .sub_name {
+        flex-basis: 45%;
+        margin: 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .met_main_team {
+        width: 100%;
     }
 
-    .flip_card_inner {
-        flex-basis: 80%;
+    .met_main_team {
+        flex-basis: 90%;
+        margin: 10px 0px;
     }
-
 }

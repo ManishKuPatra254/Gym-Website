@@ -29,6 +29,7 @@
     /* border: 1px solid green; */
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
     height: auto;
     border-radius: 4px;
     animation-name: slide;

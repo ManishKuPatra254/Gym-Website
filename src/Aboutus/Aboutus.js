@@ -31,7 +31,7 @@ export function Aboutus() {
                             <iframe width="400" height="500" src="https://www.youtube.com/embed/HQfF5XRVXjU?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                     </div>
-                    <div className={style.text_first}>
+                    <div className={style.text_first_1}>
                         <p>Who We Are</p>
                         <span>Our gym is designed to provide a welcoming and motivating environment for individuals of all fitness levels. Whether you're a beginner or an experienced athlete, we have the resources and support to help you succeed.</span>
                         <div>
@@ -40,10 +40,11 @@ export function Aboutus() {
                                     width: '30%',
                                     marginTop: '12px',
                                     textTransform: 'unset',
-                                    fontSize: '17px',
+                                    fontSize: '18px',
                                     fontWeight: 'bolder',
                                     color: 'white',
                                     backgroundColor: 'red',
+                                    borderRadius : '50px',
                                     "&:hover": { backgroundColor: 'teal' },
 
                                 }}
