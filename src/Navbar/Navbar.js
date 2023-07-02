@@ -29,10 +29,10 @@ export function NavbarSection() {
                 </div>
                 <div className={style.listing_sec_nav}>
                     <ul>
-                        <Link to={'/'}><a href="#home"><li>Home</li></a></Link>
-                        <a href="#aboutus"><li>About Us</li></a>
-                        <a href="#classes"><li>Classes</li></a>
-                        <a href="#blogs"><li>Blogs</li></a>
+                        <Link to={'/'}><li>Home</li></Link>
+                        <Link to={'/fullaboutus'}> <li>About us</li> </Link>
+                        <Link><li>Classes</li></Link>
+                        <Link><li>Blogs</li></Link>
                     </ul>
                 </div>
 

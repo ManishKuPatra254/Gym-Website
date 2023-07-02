@@ -5,6 +5,7 @@ import { RegisterJoinUs } from './RegisterJoinUs/RegisterJoinUs';
 import { NavbarSection } from './Navbar/Navbar';
 import { Fullteam } from './Fullteam/Fullteam';
 import { Footer } from './Footer/Footer';
+import { FullAboutUs } from './FullAboutUs/FullAboutUs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/signin' element={<RegisterJoinUs />} />
           <Route path='/fullteam' element={<Fullteam />} />
+          <Route path='/fullaboutus' element={<FullAboutUs />} />
         </Routes>
         <Footer />
       </BrowserRouter>

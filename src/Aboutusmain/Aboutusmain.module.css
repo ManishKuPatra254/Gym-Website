@@ -128,11 +128,11 @@
         text-align: center;
     }
 
-    .text_first p{
+    .text_first p {
         font-size: 15px;
     }
 
-    .text_first span{
+    .text_first span {
         font-size: 15px;
     }
 
@@ -152,5 +152,9 @@
     .btn_learn Button {
         width: 100%;
         font-size: 14px;
+    }
+
+    .heading2 {
+        font-size: 30px;
     }
 }
