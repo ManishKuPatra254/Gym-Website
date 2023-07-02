@@ -1,4 +1,4 @@
-import './Footer.css';
+import style from './Footer.module.css';
 import React, { Fragment } from 'react'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -8,15 +8,15 @@ import imageLogo from '../ImagesSection/logo-removebg-preview.png'
 export function Footer() {
     return (
         <Fragment>
-            <footer className="footer">
-                <div className="container">
-                    <div className="footer-content">
-                        <div className="footer-column">
-                            <div className='footer_inner'>
+            <footer className={style.footer}>
+                <div className={style.container}>
+                    <div className={style.footer_content}>
+                        <div className={style.footer_column}>
+                            <div className={style.footer_inner}>
                                 <img src={imageLogo} alt="" />
                                 <h3>Power Fitness</h3>
                             </div>
-                            <ul className="social-links">
+                            <ul className={style.social_links}>
                                 <li>
                                     <a href="https://twitter.com">
                                         <TwitterIcon />
@@ -34,14 +34,14 @@ export function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="footer-column">
+                        <div className={style.footer_column}>
                             <h3>Reach To</h3>
-                            <ul className="footer-links">
+                            <ul className={style.footer_links}>
                                 <li>
                                     <a href="/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="/aboutus">About Us</a>
+                                    <a href="/fullaboutus">About Us</a>
                                 </li>
                                 <li>
                                     <a href="/classes">Classes</a>
@@ -51,9 +51,9 @@ export function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="footer-column">
+                        <div className={style.footer_column}>
                             <h3>Services</h3>
-                            <ul className="footer-links">
+                            <ul className={style.footer_links}>
                                 <li>
                                     <a href="/">Personal Trainer</a>
                                 </li>
@@ -68,9 +68,9 @@ export function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="footer-column">
+                        <div className={style.footer_column}>
                             <h3>Programs and events</h3>
-                            <ul className="footer-links">
+                            <ul className={style.footer_links}>
                                 <li>
                                     <a href="/">Special events</a>
                                 </li>
@@ -87,7 +87,7 @@ export function Footer() {
                         </div>
 
                     </div>
-                    <div className="footer-bottom">
+                    <div className={style.footer_bottom}>
                         <p>&copy; {new Date().getFullYear()} Power Fitness. Created By Manish All rights reserved.</p>
                     </div>
                 </div>
