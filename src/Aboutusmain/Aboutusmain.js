@@ -38,14 +38,14 @@ export function Aboutus() {
                             <Button
                                 sx={{
                                     width: '30%',
+                                    fontFamily: 'Poppins, sans-serif',
                                     marginTop: '12px',
                                     textTransform: 'unset',
-                                    fontSize: '18px',
+                                    fontSize: '16px',
                                     fontWeight: 'bolder',
                                     color: 'white',
                                     backgroundColor: 'red',
-                                    borderRadius: '50px',
-                                    "&:hover": { backgroundColor: 'teal' },
+                                    "&:hover": { backgroundColor: 'tan', color: 'black' },
 
                                 }}
                                 variant='contained' onClick={handleClickToast}>Learn more</Button>
