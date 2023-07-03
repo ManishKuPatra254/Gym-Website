@@ -1,0 +1,106 @@
+.heading5 {
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.heading5 h4 {
+    width: 20%;
+    margin: auto;
+    background-color: rgb(255, 206, 206);
+    padding: 15px 15px;
+    border-radius: 40px;
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.met_main_team {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.sub_name {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px 8px;
+    margin: auto;
+    border-radius: 5px;
+    margin: 40px 0px;
+    flex-basis: 30%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sub_name img {
+    width: 100%;
+    height: auto;
+    transition: .2s ease-in-out;
+    transform: scale(1);
+}
+
+.sub_name img:hover {
+    filter: drop-shadow(12px);
+    transform: scale(1.04);
+    transition: .2s ease-in-out;
+}
+
+.sub_name p {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.sub_name span {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.btn_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.btn_add button {
+    width: 100%;
+    background-color: rgb(59, 106, 125);
+    padding: 8px;
+    border: transparent;
+    text-transform: unset;
+    color: white;
+    font-weight: 900;
+    font-size: 15px
+}
+
+.btn_add Button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(78, 196, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    .met_main_team {
+        width: 90%;
+    }
+
+    .sub_name {
+        flex-basis: 45%;
+        margin: 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .met_main_team {
+        width: 100%;
+    }
+
+    .met_main_team {
+        flex-basis: 90%;
+        margin: 10px 0px;
+    }
+}
