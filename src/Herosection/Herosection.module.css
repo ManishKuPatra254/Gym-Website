@@ -72,6 +72,7 @@
     }
 
     .text_in_image button {
+        width: 100%;
         font-size: 18px;
     }
 }

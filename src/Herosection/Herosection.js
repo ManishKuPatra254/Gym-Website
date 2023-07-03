@@ -19,7 +19,7 @@ export function Herosection() {
                 </video>
                 <div className={style.text_in_image}>
                     <h1>Welcome to Power Fitness</h1>
-                    <p>“The secret of getting ahead is getting started” </p>
+                    <p>THE ONLY IMPOSSIBLE JOURNEY IS THE ONE YOU NEVER BEGIN. </p>
                     <button onClick={handleNaigateSignup}>Join with us</button>
                 </div>
             </div>
