@@ -71,7 +71,7 @@ export function Aboutus() {
                 </div>
                 <div className={style.main_first}>
                     <div className={style.third_about}>
-                        <img src="https://img.freepik.com/free-photo/big-dumbbells-white_144627-24203.jpg?w=740&t=st=1687941275~exp=1687941875~hmac=19ad9539beec3c64b995f68303f54f02bd431b2b53aeb981af840fc9aa535534" alt="" />
+                        <img src="https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
                     </div>
                     <div className={style.text_first}>
                         <p>Facilities and Equipment</p>
@@ -84,7 +84,7 @@ export function Aboutus() {
                         <span>We believe that fitness is more than just individual efforts. We foster a strong sense of community within our gym, organizing regular events, challenges, and social gatherings. These activities provide opportunities for our members to connect, motivate each other, and celebrate their fitness achievements together.</span>
                     </div>
                     <div className={style.third_about}>
-                        <img src="https://img.freepik.com/free-photo/group-people-fitness-wear_144627-721.jpg?w=740&t=st=1687943085~exp=1687943685~hmac=e16f6e29b71e130eb6864e8dc087bac482302ccdbc98eb5b8bb64560b9f4cf7b" alt="" />
+                        <img src="https://images.pexels.com/photos/16640772/pexels-photo-16640772/free-photo-of-young-woman-stretching-on-a-mat-at-the-gym.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
                     </div>
                 </div>
             </div>

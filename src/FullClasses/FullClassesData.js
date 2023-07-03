@@ -39,7 +39,7 @@ export const fullClassesData = [
     },
     {
         "id": 7,
-        "images": "https://www.linkpicture.com/q/Cropped_Image_4.png",
+        "images": "https://img.freepik.com/free-photo/young-pregnant-woman-exercising-fitness-mat_23-2148752149.jpg?w=740&t=st=1688370115~exp=1688370715~hmac=f927b6c9924e9680aa7f19586f84ef2ea551f19e692605bc73220533273e4d33",
         "names": "Pregnancy Warm Classes ",
         "prof": "Exercising during pregnancy can be benefit both mother and the baby,",
     },

@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 export function FullClasses() {
 
     function handleClickTeamPop() {
-        toast('Joined')
+        toast('Joined ✌️')
     }
 
     return (
