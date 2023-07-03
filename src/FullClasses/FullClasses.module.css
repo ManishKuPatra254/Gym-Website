@@ -80,7 +80,7 @@
     transition: .3s ease;
 }
 
-.btn_add Button:hover {
+.btn_add button:hover {
     color: rgb(0, 0, 0);
     transition: .3s ease;
     background-color: rgb(255, 243, 113);
