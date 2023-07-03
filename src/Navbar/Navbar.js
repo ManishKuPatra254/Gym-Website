@@ -31,7 +31,7 @@ export function NavbarSection() {
                     <ul>
                         <Link to={'/'}><li>Home</li></Link>
                         <Link to={'/fullaboutus'}> <li>About us</li> </Link>
-                        <Link ><li>Classes</li></Link>
+                        <Link to={'/fullclasses'} ><li>Classes</li></Link>
                         <Link to={'/fullblogs'}><li>Blogs</li></Link>
                     </ul>
                 </div>
