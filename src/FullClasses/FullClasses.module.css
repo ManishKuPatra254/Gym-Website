@@ -75,11 +75,14 @@
     text-transform: unset;
     color: white;
     font-weight: 900;
-    font-size: 15px
+    cursor: pointer;
+    font-size: 15px;
+    transition: .3s ease;
 }
 
 .btn_add Button:hover {
     color: rgb(0, 0, 0);
+    transition: .3s ease;
     background-color: rgb(255, 243, 113);
 }
 
@@ -94,7 +97,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .met_main_team {
         width: 100%;
     }
