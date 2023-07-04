@@ -107,3 +107,10 @@
         margin: 10px 0px;
     }
 }
+
+@media screen and (max-width : 1200px) {
+    .heading5 h4 {
+        background-color: transparent;
+        width: 100%;
+    }
+}

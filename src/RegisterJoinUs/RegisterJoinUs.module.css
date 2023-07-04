@@ -1,8 +1,9 @@
 .main_register {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-weight: 900;
-    height: 100vh;
+    height: auto;
     display: flex;
+    padding: 15px 15px;
     align-items: center;
     justify-content: center;
 }
@@ -10,14 +11,15 @@
 .sub_register_content {
     /* border: 3px solid rgb(0, 0, 0); */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    max-width: 80%;
+    max-width: 40%;
     display: flex;
-    width: 80%;
+    background-color: white;
+    width: 40%;
     height: 92vh;
 }
 
 .input_sec {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,21 +31,15 @@
     font-size: 45px;
 }
 
-.image_sec {
-    /* border: 1px solid firebrick; */
-    width: 50%;
-}
-
-.image_sec img {
-    width: 100%;
-}
-
 @media screen and (max-width : 1000px) {
-    .image_sec {
-        display: none;
-    }
-
     .input_sec {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sub_register_content {
+        width: 100%;
+        max-width: 100%;
     }
 }

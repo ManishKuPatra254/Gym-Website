@@ -71,27 +71,25 @@
     }
 
     .heading4 h4 {
-        width: 30%;
-        font-size: 17px;
-        text-align: center;
+        width: 100%;
+        background-color: transparent;
+
     }
 }
 
 
 @media screen and (max-width: 1300px) {
-    
+
     .heading4 h4 {
-        width: 30%;
-        font-size: 17px;
-        text-align: center;
+        width: 100%;
+        background-color: transparent;
     }
 }
 
 @media screen and (max-width: 300px) {
 
     .heading4 h4 {
-        width: 30%;
-        font-size: 17px;
-        text-align: center;
+        width: 100%;
+        background-color: transparent;
     }
 }

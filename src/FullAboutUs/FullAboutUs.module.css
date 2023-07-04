@@ -42,6 +42,7 @@
 .main_blogs {
     width: 100%;
     height: 100vh;
+    overflow: auto;
 }
 
 .main_blogs::-webkit-scrollbar {
@@ -95,6 +96,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .main_blogs {
+        overflow: auto;
+    }
+
     .sub_mini_blogs {
         flex-direction: column;
         height: auto;
@@ -104,5 +109,48 @@
         display: none;
         width: min-content;
         height: auto;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .heading3 h4 {
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .main_about_us_sec {
+        margin-bottom: 320px;
+    }
+
+    .main_about_sec h5 {
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    .main_about_sec p {
+        /* border: 1px solid red; */
+        /* padding: 50px 150px; */
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .sub_mini_blogs img {
+        display: none;
+    }
+
+    .text_aree h4 {
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main_blogs {
+        overflow: auto;
+    }
+
+    .main_about_us_sec {
+        margin-bottom: 320px;
     }
 }
