@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import style from './FullBlogs.module.css';
+import { TextField } from '@mui/material';
 
 export function FullBlogs() {
     return (
@@ -9,6 +10,8 @@ export function FullBlogs() {
             </div>
 
             <div className={style.main_blogs}>
+                <TextField label="Search articles" variant="standard" type='text'
+                    sx={{ width: '50%', margin: 'auto', display: 'flex', justifyContent: 'center', }} />
                 <div className={style.sub_mini_blogs}>
                     <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     <div className={style.text_aree}>

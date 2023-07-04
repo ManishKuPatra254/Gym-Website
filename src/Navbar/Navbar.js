@@ -15,7 +15,13 @@ export function NavbarSection() {
     function handleMenuOpen() {
         setMenuOpen(!menuOpen);
     }
+    // Check Link and li......................
 
+    const [activeItem, setActiveItem] = useState('home');
+
+    const handleNavbarClick = (item) => {
+        setActiveItem(item);
+    };
 
     let dataReceive;
 
@@ -60,10 +66,18 @@ export function NavbarSection() {
                 </div>
                 <div className={`${style.listing_sec_nav} ${menuOpen ? style.menuopen_ham : ''}`}>
                     <ul>
-                        <Link to={'/'}><li>Home</li></Link>
-                        <Link to={'/fullaboutus'}> <li>About us</li> </Link>
-                        <Link to={'/fullclasses'} ><li>Classes</li></Link>
-                        <Link to={'/fullblogs'}><li>Blogs</li></Link>
+                        <Link to="/" className={activeItem === 'home' ? style.active : ''} onClick={() => handleNavbarClick('home')}>
+                            <li>Home</li></Link>
+                        <Link to="/fullaboutus" className={activeItem === 'aboutus' ? style.active : ''} onClick={() => handleNavbarClick('aboutus')}>
+                            <li>About us</li>
+                        </Link>
+                        <Link to="/fullclasses" className={activeItem === 'classes' ? style.active : ''} onClick={() => handleNavbarClick('classes')}>
+                            <li>Classes</li>
+                        </Link>
+                        <Link to="/fullblogs" className={activeItem === 'blogs' ? style.active : ''} onClick={() => handleNavbarClick('blogs')}>
+                            <li>Blogs</li>
+                        </Link>
+
                     </ul>
                 </div>
 

@@ -2,7 +2,6 @@
     position: relative;
     max-width: 100%;
     height: auto;
-    position: relative;
     display: inline-block;
 }
 
@@ -41,20 +40,20 @@
 .text_in_image button {
     width: 30%;
     margin-top: 20px;
-    background-color: rgb(136, 58, 54);
+    background-color: rgba(255, 255, 255, 0.32);
+    color: rgb(255, 255, 255);
     padding: 8px 30px;
-    color: whitesmoke;
     border: none;
-    font-size: 27px;
-    font-weight: 900;
+    font-size: 25px;
+    font-weight: 200;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 50px;
     transition: .3s ease-in-out;
 }
 
 .text_in_image button:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: whitesmoke;
 }
 
 
