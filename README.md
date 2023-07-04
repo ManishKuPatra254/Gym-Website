@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Project Overview ... 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Gym Website named Power Fitness is a web application designed for a fitness center or gym. It provides information about the gym, its facilities, classes, trainers, and allows users to sign up for memberships or book classes.
 
-## Available Scripts
+# Features ... 
 
-In the project directory, you can run:
 
-### `npm start`
+1 . Home Page: Provides an overview of the gym, its mission statement, and highlights of the facilities and classes offered
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Classes Page: Displays a list of available classes along with their schedules, descriptions, and trainers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3.  Trainers Page: Introduces the gym's trainers with their profiles, specialties, and achievements
 
-### `npm test`
+4. Membership : Allows users to view different membership options and their benefits. Users can also sign up for a membership online.
+    
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Booking Page: Enables users to book classes online.They can view the class schedule and book a spot for a specific class
+    
 
-### `npm run build`
+6. Blogs Page : Enables user to read all the blogs we provide for beginners and as well as for advanced people
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Installation ... 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this website follow the steps ...
 
-### `npm run eject`
+1. Clone the repository
+2. Download all the dependencies (if not present)
+3. Go to VS code and click on terminal
+4. Run a command (npm start)
+5. See the result ✌️
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h1> Requirements </h1>
+<ul>
+  <li>React-JS</li>
+   <li>React Icons</li>
+   <li>React Router Dom</li>
+   <li>React Hot Toast</li>
+   <li>Material UI</li>
+   <li>Material UI Icons</li>
+</ul>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Screenshots ...
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h3>Hero Section UI</h3>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot 2023-07-04 113711](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/25cfa46e-fc4d-48ba-a01d-f8c80e5e7753)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<h3>Training Programs</h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot 2023-07-04 113858](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/b39c04b5-5172-414d-8eb0-d3b8ba818bc3)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<h3>Meet Our Team </h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot 2023-07-04 114006](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/49c11071-13a1-49e9-a6ed-8bad82cc27f6)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<h3>Pricing</h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Screenshot 2023-07-04 114120](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/940d9c33-00ce-4a42-b953-914350a5f398)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3>About Us</h3>
+
+![Screenshot 2023-07-04 114250](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/71ad48b6-f5a5-4465-a592-a3d775b31242)
+
+
+<h3>Classes Page</h3>
+
+![Screenshot 2023-07-04 114402](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/3db46f67-c48c-4257-93a9-6efd5fedfc4a)
+
+
+<h3>Blogs Page</h3>
+
+![Screenshot 2023-07-04 114449](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/17c8955e-8d51-4466-bac2-2899472f2032)
+
+
+
+<h3>Join Us Page</h3>
+
+![Screenshot 2023-07-04 114536](https://github.com/ManishKuPatra254/Gym-Website/assets/112771729/a25a3148-7bec-4ccd-ba4e-b0ffd2520a28)
+
+
+
+
+
